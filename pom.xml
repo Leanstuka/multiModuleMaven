@@ -20,15 +20,18 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
       </plugin>
+      <plugin>
+        <groupId>com.lesfurets</groupId>
+        <artifactId>partial-build-plugin</artifactId>
+        <version>VERSION</version>
+        <extensions>true</extensions>
+        <configuration>
+          <referenceBranch>refs/remote/heads/master</referenceBranch>
+          <buildAll>true</buildAll>
+          <skipTestsForNotImpactedModules>true</skipTestsForNotImpactedModules>
+        </configuration>
+      </plugin>
     </plugins>
-    <extensions>
-      <extension>
-        <groupId>com.vackosar.gitflowincrementalbuilder</groupId>
-        <artifactId>gitflow-incremental-builder</artifactId>
-        <version>3.7</version>
-      </extension>
-    </extensions>
-
 
   </build>
 </project>
