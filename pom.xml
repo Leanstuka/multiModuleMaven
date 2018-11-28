@@ -23,7 +23,7 @@
       <plugin>
         <groupId>com.lesfurets</groupId>
         <artifactId>partial-build-plugin</artifactId>
-        <version>VERSION</version>
+        <version>4.0.0</version>
         <extensions>true</extensions>
         <configuration>
           <referenceBranch>refs/remote/heads/master</referenceBranch>
