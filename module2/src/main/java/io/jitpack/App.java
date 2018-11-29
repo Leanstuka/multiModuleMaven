@@ -6,7 +6,7 @@ package io.jitpack;
  */
 public class App 
 {
-    public static String GREETING = "Cambio en modulo 2";
+    public static String GREETING = "Cambio en modulo_2";
     
     public static void main( String[] args )
     {
