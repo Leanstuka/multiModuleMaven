@@ -27,7 +27,7 @@
         <extensions>true</extensions>
         <configuration>
           <referenceBranch>refs/remotes/origin/master</referenceBranch>
-          <buildAll>true</buildAll>
+          <buildAll>false</buildAll>
           <skipTestsForNotImpactedModules>true</skipTestsForNotImpactedModules>
         </configuration>
       </plugin>
